@@ -13,7 +13,17 @@
 
 Построили математическую модель дыхательной системы на основе уравнения движения:
 
-\P = P_{peep} + \frac{V}{C} + R \cdot Q 
+$$
+P = P_{\text{peep}} + \frac{V}{C} + R \cdot Q
+$$
+
+**Where:**
+- $P$ = Total pressure
+- $P_{\text{peep}}$ = Positive end-expiratory pressure
+- $V$ = Volume
+- $C$ = Compliance
+- $R$ = Resistance
+- $Q$ = Flow (often denoted as $\dot{V}$)
 
 Провели численное моделирование для каждого режима. Оценили параметры дыхательного цикла: объём, давление, расход.
 
